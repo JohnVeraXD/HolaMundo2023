@@ -20,7 +20,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtNombre"
         android:layout_width="190dp"
         android:layout_height="60dp"
         android:layout_alignParentStart="true"
@@ -77,7 +77,12 @@
         android:layout_marginBottom="269dp"
         android:background="#4CED52"
         android:backgroundTint="#21D529"
+        android:onClick="btnEntrar"
         android:text="Entrar"
-        android:textSize="20sp" />
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColorHighlight="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
