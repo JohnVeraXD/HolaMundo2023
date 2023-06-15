@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
         //Sacar la fecha de nacimiento
         String fechaNaci = txtFechaDate.getText().toString();
 
-        Toast.makeText(this.getApplicationContext(),
+        /*Toast.makeText(this.getApplicationContext(),
                 "Nombre:" + nombre + "," +
                         "Password: " + Password + "," +
                         "Genero" + genero + "," +
                         "Notificacion" + notificaciones + "," +
                         "FechaNacimiento" + fechaNaci,
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_LONG).show(); */
 
         Intent intent = new Intent(MainActivity.this, MainActivity2.class);
 
