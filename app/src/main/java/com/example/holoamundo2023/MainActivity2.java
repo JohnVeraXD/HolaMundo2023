@@ -73,8 +73,6 @@ public class MainActivity2 extends AppCompatActivity implements Asynchtask {
                     }
                 });
         queue.add(stringRequest);
-
-  //h
     }
 
     @Override

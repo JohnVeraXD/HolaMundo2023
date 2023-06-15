@@ -41,6 +41,7 @@ public class MainActivityListaBancos extends AppCompatActivity implements Asynch
         for(int i=0; i< JSONlista.length();i++){
             JSONObject banco= JSONlista.getJSONObject(i);
             lstBancos = lstBancos + "\n" +
+                    banco.getString("code").toString() + " - " +
                     banco.getString("name").toString();
         }
 
