@@ -8,6 +8,31 @@
 
 
     <TextView
+        android:id="@+id/lblPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="225dp"
+        android:text="Genero:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblPassword3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="310dp"
+        android:text="F. Nacimiento:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
         android:id="@+id/lblTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,11 +50,10 @@
         android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="121dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="59dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Ingrese su nombre"
         android:textSize="20sp" />
 
     <TextView
@@ -38,8 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="138dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="79dp"
         android:text="Nombre:"
         android:textColor="#000000"
         android:textSize="20sp" />
@@ -50,20 +74,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="247dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="139dp"
         android:text="Password:"
         android:textColor="#000000"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txtPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="234dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="21dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textSize="20sp" />
@@ -74,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="269dp"
+        android:layout_marginBottom="10dp"
         android:background="#4CED52"
         android:backgroundTint="#21D529"
         android:onClick="btnEntrar"
@@ -84,5 +108,60 @@
         android:textColorHighlight="#4CAF50"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="184dp">
+
+        <RadioButton
+            android:id="@+id/rbMascu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rbFeme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Femenino" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/swnotificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="270dp"
+        android:text="Notificaciones" />
+
+    <EditText
+        android:id="@+id/txtFechaDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="321dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="242dp"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginBottom="84dp" />
 
 </RelativeLayout>
